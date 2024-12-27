@@ -1,0 +1,119 @@
+/* Header styling */
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+  
+    background-image: url('https://www.templon.com/wp-content/uploads/2019/04/news_472.jpg'); /* Background image */
+    background-size: cover; /* Cover the background */
+    background-position: center; /* Center the background image */
+    color: #08161f; /* Text color */
+    padding: 10px 20px; /* Padding around the header */
+}
+
+/* Logo styling inside the header */
+header .logo {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo image styling */
+header .logo img {
+    height: 40px; /* Set height of the logo image */
+    margin-right: 10px; /* Margin to the right of the logo image */
+}
+
+/* Header heading styling */
+header .heading {
+    font-size: 24px; /* Font size for the heading */
+}
+
+/* Navigation styling */
+nav {
+    display: flex; /* Use flexbox for layout */
+}
+
+/* Navigation link styling */
+nav a {
+    color: #81bdee; /* Link text color */
+    padding: 14px 20px; /* Padding around the links */
+    text-decoration: none; /* Remove underline from links */
+    text-align: center; /* Center align text */
+    display: inline-block; /* Display as inline-block */
+    border-radius: 4px; /* Rounded corners */
+    transition: 0.3s, color 0.3s, box-shadow 0.3s; /* Transition effects */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+/* Style for navigation links on hover */
+nav a:hover {
+    background: #5a5a5a; /* Darker background on hover */
+    color: #9b9b9b; /* Lighter text color on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+/* Unordered list styling inside navigation */
+nav ul {
+    list-style: none; /* Remove default list styling */
+    margin: 20px; /* Margin around the list */
+    padding: 20px; /* Padding around the list */
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Gap between list items */
+}
+
+/* List item styling inside navigation */
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add gap between links */
+}
+
+/* List item link styling */
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link text color */
+    padding: 10px 15px; /* Padding around the links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Transition effects */
+}
+
+/* Style for list item links on hover */
+nav ul li a:hover {
+    background-color: #007BFF; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* Styles for the main content area */
+main {
+    padding: 2rem; /* Padding around the main content */
+}
+
+/* Styles for each section */
+section {
+    margin: 2rem; /* Margin at the bottom of each section */
+    background: #f9f9f9; /* White background color */
+    text-align: center; /* Center align text */
+}
+
+/* Styles for section headings */
+section p {
+    font-size: 1.1rem; /* Font size for paragraphs */
+    color: #333; /* Dark gray text color */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* Styles for section headers */
+section h2 {
+    color: #252525; /* Dark gray text color */
+    border-bottom: 2px solid #333; /* Dark gray bottom border */
+} 
+
+/* Styles for the footer */
+footer {
+    background: #333333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align text */
+    padding: 1rem 0; /* Padding on top and bottom */
+    position: static; /* Fix the footer at the bottom of the page */
+    width: 100%; /* Full width */
+    bottom: 0; /* Position at the bottom */
+}
